@@ -27,15 +27,6 @@ public class Main {
         persona2.mostrarDatos();
         System.out.println();
 
-        System.out.println("Creación de Persona usando constructor con DNI, nombre y fecha de nacimiento:");
-        System.out.print("Ingrese DNI: ");
-        dni = scanner.nextLine();
-        System.out.print("Ingrese nombre: ");
-        nombre = scanner.nextLine();
-        System.out.print("Ingrese fecha de nacimiento (YYYY-MM-DD): ");
-        fechaNacimiento = LocalDate.parse(scanner.nextLine());
-        Persona persona3 = new Persona(dni, nombre, fechaNacimiento);
-        persona3.mostrarDatos();
 
         scanner.close();
     }
