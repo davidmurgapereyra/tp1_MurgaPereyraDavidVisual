@@ -17,7 +17,7 @@ public class Main {
 		
 		for(int i=0 ; i<arreglox.length; i++) {
 			
-			System.out.println("Posicion" + " " + i + "=" + arreglox[i]);
+			System.out.println("Posición" + " " + i + ":" + " " + arreglox[i]);
 		}
 		
 		scanner.close();
